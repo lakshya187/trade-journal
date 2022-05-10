@@ -9,7 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "cd server && npm i && npm start"
+    "heroku-prebuild": "cd server",
+    "build": "npm i",
+    "start": "npm start"
   },
   "repository": {
     "type": "git",
