@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd Server && npm start"
+    "start": "cd Server && npm install && npm start"
   },
   "repository": {
     "type": "git",
